@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/example.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+    <script type="text/javascript" src="../javascript/getUrl.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="index.html">Unnamed</a>
+       </div>
+       <ul class="nav navbar-nav" id="navButtons">
+      </ul>
+     </div>
+   </nav>
+    <div class="input-group">
+      <input id="usr" type="text" class="form-control" placeholder="Get images from...">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button" id="addToList">
+          <i class="glyphicon glyphicon-plus-sign">
+          </i>
+        </button>
+      </span>
+    </div>
+    <br>
+    <div>
+      <button id="buttonSearch" type="button" class="btn btn-primary btn-block">Search</button>
+    </div>
+
+  </body>
+</html>

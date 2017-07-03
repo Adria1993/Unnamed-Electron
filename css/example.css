@@ -1,0 +1,12 @@
+#fromPage{
+  height: auto;
+  width: 100%;
+}
+button.input-group-addon {
+  position: absolute;
+  right: -20px;
+  top: 0;
+  z-index: 999;
+  height: 34px;
+  width: 34px;
+}
